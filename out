@@ -1,0 +1,1265 @@
+Loading data in elasticsearch ...
+{
+  "objectIdFieldName": "FID",
+  "uniqueIdField": {
+    "name": "FID",
+    "isSystemMaintained": true
+  },
+  "globalIdFieldName": "",
+  "geometryType": "esriGeometryPoint",
+  "spatialReference": {
+    "wkid": 4326,
+    "latestWkid": 4326
+  },
+  "fields": [
+    {
+      "name": "COUNTY",
+      "type": "esriFieldTypeString",
+      "alias": "COUNTY",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 256,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "SITE_",
+      "type": "esriFieldTypeString",
+      "alias": "SITE ",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 256,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ADDRESS",
+      "type": "esriFieldTypeString",
+      "alias": "ADDRESS",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 256,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "CITY",
+      "type": "esriFieldTypeString",
+      "alias": "CITY",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 256,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "STATE",
+      "type": "esriFieldTypeString",
+      "alias": "STATE",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 256,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ZIP",
+      "type": "esriFieldTypeInteger",
+      "alias": "ZIP",
+      "sqlType": "sqlTypeNVarchar",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "INFO",
+      "type": "esriFieldTypeString",
+      "alias": "INFO",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 256,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "LATITUDE",
+      "type": "esriFieldTypeDouble",
+      "alias": "LATITUDE",
+      "sqlType": "sqlTypeFloat",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "LONGITUDE",
+      "type": "esriFieldTypeDouble",
+      "alias": "LONGITUDE",
+      "sqlType": "sqlTypeFloat",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Who_is_being_tested_at_this_location__",
+      "type": "esriFieldTypeString",
+      "alias": "Who is being tested at this location? ",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 267,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Appointment_Required_",
+      "type": "esriFieldTypeString",
+      "alias": "Appointment Required?",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 256,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Doctor_s_note_required_",
+      "type": "esriFieldTypeString",
+      "alias": "Doctor's note required?",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 256,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Phone___for_public",
+      "type": "esriFieldTypeString",
+      "alias": "Phone # for public",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 256,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Website",
+      "type": "esriFieldTypeString",
+      "alias": "Website",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 256,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Directions",
+      "type": "esriFieldTypeString",
+      "alias": "Directions",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 256,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Include_In_Map",
+      "type": "esriFieldTypeString",
+      "alias": "Include In Map",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 256,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Date_Updated",
+      "type": "esriFieldTypeDate",
+      "alias": "Date Updated",
+      "sqlType": "sqlTypeTimestamp2",
+      "length": 8,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Data_Source",
+      "type": "esriFieldTypeString",
+      "alias": "Data Source",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 256,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "FID",
+      "type": "esriFieldTypeOID",
+      "alias": "FID",
+      "sqlType": "sqlTypeInteger",
+      "domain": null,
+      "defaultValue": null
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "COUNTY": "\nArchuleta County",
+        "SITE_": "\n\nPagosa Springs Medical Center (Hospital)",
+        "ADDRESS": "95 S Pagosa Blvd",
+        "CITY": "Pagosa Springs",
+        "STATE": "CO",
+        "ZIP": "81147",
+        "INFO": "Thurs & Sun 10:00 am - 4:00 pm",
+        "LATITUDE": 37.252264,
+        "LONGITUDE": -107.078307,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only, High risk public (person>60 years of age, immunocompromised), Key personnel (healthcare workers, first responders, critical infrastructure)",
+        "Appointment_Required_": "No",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "888-540-8924",
+        "Website": "https://sjbpublichealth.org/",
+        "Directions": "https://maps.google.com/?q=95 S Pagosa Blvd, Pagosa Springs, CO 81147",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 1
+      },
+      "geometry": {
+        "x": -107.078307,
+        "y": 37.252264
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Arapahoe County",
+        "SITE_": "STRIDE Community Health Center: North Aurora Family Health Services Center",
+        "ADDRESS": "3292 Peoria St.",
+        "CITY": "Aurora",
+        "STATE": "CO",
+        "ZIP": "80010",
+        "INFO": "9:00am-5:30pm, Sat 9:00am-2:00pm, until testing supplies are depleted",
+        "LATITUDE": 39.763738,
+        "LONGITUDE": -104.845414,
+        "Who_is_being_tested_at_this_location__": "General public, asymptomatic and symptomatic",
+        "Appointment_Required_": "No",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "303-360-6276",
+        "Website": "https://stridechc.org/covid-19/",
+        "Directions": "https://maps.google.com/?q=3292 Peoria St., Aurora, CO 80010",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 2
+      },
+      "geometry": {
+        "x": -104.84541399999999,
+        "y": 39.763738
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Arapahoe County",
+        "SITE_": "STRIDE Community Health Center: Aurora Health & Wellness Plaza",
+        "ADDRESS": "10680 Del Mar Pkwy",
+        "CITY": "Aurora",
+        "STATE": "CO",
+        "ZIP": "80010",
+        "INFO": "9:00am-5:30pm, until testing supplies are depleted",
+        "LATITUDE": 39.731549,
+        "LONGITUDE": -104.864994,
+        "Who_is_being_tested_at_this_location__": "General public, asymptomatic and symptomatic",
+        "Appointment_Required_": "No",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "303-360-6276",
+        "Website": "https://stridechc.org/covid-19/",
+        "Directions": "https://maps.google.com/?q=10680 Del Mar Pkwy, Aurora, CO 80010",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 3
+      },
+      "geometry": {
+        "x": -104.864994,
+        "y": 39.731549
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Arapahoe County",
+        "SITE_": "STRIDE Community Health Center: Convenient Care at South Aurora Family Health Services",
+        "ADDRESS": "15132 E Hampden Ave, Suite G",
+        "CITY": "Aurora",
+        "STATE": "CO",
+        "ZIP": "80014",
+        "INFO": "9:00am-4:00pm, until testing supplies are depleted",
+        "LATITUDE": 39.652011,
+        "LONGITUDE": -104.8124,
+        "Who_is_being_tested_at_this_location__": "General public, asymptomatic and symptomatic",
+        "Appointment_Required_": "No",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "303-360-6276",
+        "Website": "https://stridechc.org/covid-19/",
+        "Directions": "https://maps.google.com/?q=15132 E Hampden Ave, Suite G, Aurora, CO 80014",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 4
+      },
+      "geometry": {
+        "x": -104.8124,
+        "y": 39.65201099999999
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Bent County",
+        "SITE_": "Valley Wide Health Systems",
+        "ADDRESS": "245 Vine Avenue",
+        "CITY": "Las Animas",
+        "STATE": "CO",
+        "ZIP": "81054",
+        "INFO": null,
+        "LATITUDE": 38.07075,
+        "LONGITUDE": -103.228352,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "719-456-2653",
+        "Website": "https://vwhs.org/locations/las-animas-clinic/",
+        "Directions": "https://maps.google.com/?q=245 Vine Avenue, Las Animas, CO 81054",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 5
+      },
+      "geometry": {
+        "x": -103.22835199999999,
+        "y": 38.070750000000004
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Boulder County",
+        "SITE_": "Clinica Family Health",
+        "ADDRESS": "1735 S. Public Road",
+        "CITY": "Lafayette",
+        "STATE": "CO",
+        "ZIP": "80026",
+        "INFO": "Monday - Friday 9:00 am- 12:00 pm, Discounts available for uninsured patients",
+        "LATITUDE": 39.983089,
+        "LONGITUDE": -105.091261,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "No",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "303-650-4460",
+        "Website": "https://www.clinica.org",
+        "Directions": "https://maps.google.com/?q=1735 S. Public Road, Lafayette, CO 80026",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 6
+      },
+      "geometry": {
+        "x": -105.091261,
+        "y": 39.98308899999999
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Chaffee County",
+        "SITE_": "Chaffee County Public Health, Salida or First Street Family Health ",
+        "ADDRESS": "910 Rush Dr",
+        "CITY": "Salida",
+        "STATE": "CO",
+        "ZIP": "81201",
+        "INFO": "Monday - Friday 9:00 am - 12:00 pm",
+        "LATITUDE": 38.542781,
+        "LONGITUDE": -106.006932,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "719-530-2039",
+        "Website": "N/A",
+        "Directions": "https://maps.google.com/?q=910 Rush Dr, Salida, CO 81201",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 7
+      },
+      "geometry": {
+        "x": -106.006932,
+        "y": 38.542780999999984
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Clear Creek County",
+        "SITE_": "Clear Creek Resource Center",
+        "ADDRESS": "1531 Colorado Blvd",
+        "CITY": "Idaho Springs",
+        "STATE": "CO",
+        "ZIP": "80452",
+        "INFO": "Tuesdays, 9:00 am - 1:00 pm",
+        "LATITUDE": 39.742519,
+        "LONGITUDE": -105.516423,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only and people volunteering in the County",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "303-670-7545",
+        "Website": "https://www.clearcreekcounty.us/1173/COVID-19-Coronavirus",
+        "Directions": "https://maps.google.com/?q=1531 Colorado Blvd, Idaho Springs, CO 80452",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 8
+      },
+      "geometry": {
+        "x": -105.51642300000002,
+        "y": 39.74251899999999
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Crowley County",
+        "SITE_": "Centennial Family Health Center",
+        "ADDRESS": "319 Main St",
+        "CITY": "Ordway",
+        "STATE": "CO",
+        "ZIP": "81063",
+        "INFO": null,
+        "LATITUDE": 38.217902,
+        "LONGITUDE": -103.756427,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "719-267-3503",
+        "Website": "https://vwhs.org/locations/valley-wide-ordway/",
+        "Directions": "https://maps.google.com/?q=319 Main St, Ordway, CO 81063",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 9
+      },
+      "geometry": {
+        "x": -103.756427,
+        "y": 38.217902
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Custer County",
+        "SITE_": "Public Health Office",
+        "ADDRESS": "10 Hermit Ln, #5",
+        "CITY": "Sliver Cliff",
+        "STATE": "CO",
+        "ZIP": "81252",
+        "INFO": null,
+        "LATITUDE": 38.135389,
+        "LONGITUDE": -105.454261,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "No",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "719-458-9211",
+        "Website": "N/A",
+        "Directions": "https://maps.google.com/?q=10 Hermit Ln, #5, Sliver Cliff, CO 81252",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 10
+      },
+      "geometry": {
+        "x": -105.454261,
+        "y": 38.135388999999996
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Delta County",
+        "SITE_": "Delta County Health Department",
+        "ADDRESS": "255 W 6th St.",
+        "CITY": "Delta",
+        "STATE": "CO",
+        "ZIP": "81416",
+        "INFO": "3 days per week from 2:00 - 4:00 P.M",
+        "LATITUDE": 38.73918,
+        "LONGITUDE": -108.072934,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "970-874-2183",
+        "Website": "https://www.deltacounty.com/",
+        "Directions": "https://maps.google.com/?q=255 W 6th St., Delta, CO 81416",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 11
+      },
+      "geometry": {
+        "x": -108.072934,
+        "y": 38.73917999999999
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Elbert County",
+        "SITE_": "Peak Vista Community Health Centers",
+        "ADDRESS": "320 Comanche St.",
+        "CITY": "Kiowa",
+        "STATE": "CO",
+        "ZIP": "80117",
+        "INFO": "Tuesday - Friday, 8:00am - 5:00pm",
+        "LATITUDE": 39.34618,
+        "LONGITUDE": -104.465408,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "No",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "720-389-9763",
+        "Website": "https://www.elbertcounty-co.gov/public_health_and_environment_-_covid_19.php",
+        "Directions": "https://maps.google.com/?q=320 Comanche St., Kiowa, CO 80117",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 12
+      },
+      "geometry": {
+        "x": -104.465408,
+        "y": 39.34618
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Fremont County",
+        "SITE_": "Fremont County Department of Public Health & Environment",
+        "ADDRESS": "201 N 6th St.",
+        "CITY": "Canon City",
+        "STATE": "CO",
+        "ZIP": "81212",
+        "INFO": "Mondays/Wednesdays 9:00 am - 4:00 pm",
+        "LATITUDE": 38.442061,
+        "LONGITUDE": -105.24053,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only. High risk public (person>60 years of age, immunocompromised). Key personnel (healthcare workers, first responders, critical infrastructure).",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "719-276-7450",
+        "Website": "https://www.fremontco.com/public-health/public-health-and-environment",
+        "Directions": "https://maps.google.com/?q=201 N 6th St., Canon City, CO 81212",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 13
+      },
+      "geometry": {
+        "x": -105.24053,
+        "y": 38.442061
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Grand County",
+        "SITE_": "Grand County Mobile Testing",
+        "ADDRESS": "350 County Road 5103",
+        "CITY": "Fraser",
+        "STATE": "CO",
+        "ZIP": "80442",
+        "INFO": "Mobile site, driving to different locations each day",
+        "LATITUDE": 39.959294,
+        "LONGITUDE": -105.844656,
+        "Who_is_being_tested_at_this_location__": "General public, asymptomatic and symptomatic",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "970-725-3803",
+        "Website": "https://www.co.grand.co.us/covid19",
+        "Directions": "https://maps.google.com/?q=350 County Road 5103, Fraser, CO 80442",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 14
+      },
+      "geometry": {
+        "x": -105.844656,
+        "y": 39.959294
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Gunnison County",
+        "SITE_": "Gunnison Community Testing Site",
+        "ADDRESS": "220 North Spruce St",
+        "CITY": "Gunnison",
+        "STATE": "CO",
+        "ZIP": "81230",
+        "INFO": "Gunnison Community Screening Site:\nMonday through Saturday 10:00 am - 12:00 pm.",
+        "LATITUDE": 38.546261,
+        "LONGITUDE": -106.930081,
+        "Who_is_being_tested_at_this_location__": "General public, asymptomatic and symptomatic",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "970-641-7660",
+        "Website": "https://covid19.gunnisoncounty.org/community-resources/report-symptoms/",
+        "Directions": "https://maps.google.com/?q=220 North Spruce St, Gunnison, CO 81230",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 15
+      },
+      "geometry": {
+        "x": -106.930081,
+        "y": 38.54626099999999
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Hinsdale County",
+        "SITE_": "Lake City Area Medical Center",
+        "ADDRESS": "700 N Henson St",
+        "CITY": "Lake City",
+        "STATE": "CO",
+        "ZIP": "81235",
+        "INFO": "Monday - Thursday 8:00 am to 1:00 pm",
+        "LATITUDE": 38.033215,
+        "LONGITUDE": -107.312111,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "970-944-0321",
+        "Website": "http://www.silverthreadpublichealth.org/",
+        "Directions": "https://maps.google.com/?q=700 N Henson St, Lake City, CO 81235",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 16
+      },
+      "geometry": {
+        "x": -107.312111,
+        "y": 38.03321499999999
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Huerfano County",
+        "SITE_": "Spanish Peaks Regional Health Center",
+        "ADDRESS": "23500 US-160",
+        "CITY": "Walsenburg",
+        "STATE": "CO",
+        "ZIP": "81089",
+        "INFO": "By appointment through Patient's Primary Care Physician",
+        "LATITUDE": 37.600395,
+        "LONGITUDE": -104.831769,
+        "Who_is_being_tested_at_this_location__": "By appointment through Patient's Primary Care Physician",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "Yes",
+        "Phone___for_public": "719-738-4569",
+        "Website": "N/A",
+        "Directions": "https://maps.google.com/?q=23500 US-160, Walsenburg, CO 81089",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 17
+      },
+      "geometry": {
+        "x": -104.831769,
+        "y": 37.60039499999999
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Jefferson County",
+        "SITE_": "STRIDE Community Health Center: Jeffco Family Health Services Center",
+        "ADDRESS": "7495 W 29th Ave",
+        "CITY": "Wheat Ridge",
+        "STATE": "CO",
+        "ZIP": "80033",
+        "INFO": "9:00am-5:30pm, Sat 9:00am-1:30pm, until testing supplies are depleted",
+        "LATITUDE": 39.759071,
+        "LONGITUDE": -105.080968,
+        "Who_is_being_tested_at_this_location__": "General public, asymptomatic and symptomatic",
+        "Appointment_Required_": "No",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "303-360-6276",
+        "Website": "https://stridechc.org/covid-19/",
+        "Directions": "https://maps.google.com/?q=7495 W 29th Ave, Wheat Ridge, CO 80033",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 18
+      },
+      "geometry": {
+        "x": -105.080968,
+        "y": 39.759071
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Kiowa County",
+        "SITE_": "Weisbrod Memorial County Hospital",
+        "ADDRESS": "1208 Luther St.",
+        "CITY": "Eads",
+        "STATE": "CO",
+        "ZIP": "81036",
+        "INFO": "Monday - Friday 7:00 am - 9:00 am",
+        "LATITUDE": 38.4801,
+        "LONGITUDE": -102.78455,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only, High risk public (person>60 years of age, immunocompromised), Key personnel (healthcare workers, first responders, critical infrastructure)",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "Yes",
+        "Phone___for_public": "719-438-5401",
+        "Website": "N/A",
+        "Directions": "https://maps.google.com/?q=1208 Luther St., Eads, CO 81036",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 19
+      },
+      "geometry": {
+        "x": -102.78455,
+        "y": 38.480100000000014
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Kit Carson County",
+        "SITE_": "Kit Carson County Department of Public Health and Environment",
+        "ADDRESS": "253 South 14th Street",
+        "CITY": "Burlington",
+        "STATE": "CO",
+        "ZIP": "80807",
+        "INFO": "Fridays 8:00 am to 5:00 pm",
+        "LATITUDE": 39.299611,
+        "LONGITUDE": -102.268447,
+        "Who_is_being_tested_at_this_location__": "General public, asymptomatic and symptomatic. Patients with symptoms, who have a primary care physician, should request a Doctor's note. Drive through site is open to the public. ",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "719-346-7158",
+        "Website": "https://kitcarsoncounty.colorado.gov/",
+        "Directions": "https://maps.google.com/?q=253 South 14th Street, Burlington, CO 80807",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 20
+      },
+      "geometry": {
+        "x": -102.268447,
+        "y": 39.299611
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "La Plata County",
+        "SITE_": "Mercy Regional Medical Center",
+        "ADDRESS": "810 E 3rd St.",
+        "CITY": "Durango",
+        "STATE": "CO",
+        "ZIP": "81301",
+        "INFO": "Symptomatic individuals will be screened over the phone and can be tested the same day. There is no fee for the test.",
+        "LATITUDE": 37.264634,
+        "LONGITUDE": -107.873206,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "No",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "888-540-8924",
+        "Website": "N/A",
+        "Directions": "https://maps.google.com/?q=810 E 3rd St., Durango, CO 81301",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 21
+      },
+      "geometry": {
+        "x": -107.873206,
+        "y": 37.264634
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Lake County",
+        "SITE_": "Rocky Mountain Family Practice",
+        "ADDRESS": "735 US-24",
+        "CITY": "Leadville",
+        "STATE": "CO",
+        "ZIP": "80461",
+        "INFO": "By appointment",
+        "LATITUDE": 39.23965,
+        "LONGITUDE": -106.301855,
+        "Who_is_being_tested_at_this_location__": "Call for appointment",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "719-486-0500",
+        "Website": "N/A",
+        "Directions": "https://maps.google.com/?q=735 US-24, Leadville, CO 80461",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 22
+      },
+      "geometry": {
+        "x": -106.30185499999999,
+        "y": 39.23965
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Lake County",
+        "SITE_": "St. Vincent Hospital",
+        "ADDRESS": "822 W 4th St",
+        "CITY": "Leadville",
+        "STATE": "CO",
+        "ZIP": "80461",
+        "INFO": "By appointment",
+        "LATITUDE": 39.245052,
+        "LONGITUDE": -106.30334,
+        "Who_is_being_tested_at_this_location__": "Call for appointment",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "719-486-0230",
+        "Website": "N/A",
+        "Directions": "https://maps.google.com/?q=822 W 4th St, Leadville, CO 80461",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 23
+      },
+      "geometry": {
+        "x": -106.30334,
+        "y": 39.245052
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Larimer County",
+        "SITE_": "Larimer County Health Department",
+        "ADDRESS": "2350 Research Blvd",
+        "CITY": "Fort Collins",
+        "STATE": "CO",
+        "ZIP": "80526",
+        "INFO": "By appointment only - patients pre-register and will be directed to a location",
+        "LATITUDE": 40.555403,
+        "LONGITUDE": -105.087185,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "970-498-6767",
+        "Website": "https://www.larimer.org/community-testing",
+        "Directions": "https://maps.google.com/?q=2350 Research Blvd, Fort Collins, CO 80526",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 24
+      },
+      "geometry": {
+        "x": -105.087185,
+        "y": 40.55540299999999
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Las Animas County",
+        "SITE_": "Mt. San Rafael Hospital",
+        "ADDRESS": "412 Benedicta",
+        "CITY": "Trinidad",
+        "STATE": "CO",
+        "ZIP": "81082",
+        "INFO": "By appointment through Patient's Primary Care Physician",
+        "LATITUDE": 37.172924,
+        "LONGITUDE": -104.487688,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only, High risk public (person>60 years of age, immunocompromised), Key personnel (healthcare workers, first responders, critical infrastructure)",
+        "Appointment_Required_": "No",
+        "Doctor_s_note_required_": "Yes",
+        "Phone___for_public": "719-846-9213",
+        "Website": "http://www.msrhc.org/",
+        "Directions": "https://maps.google.com/?q=412 Benedicta, Trinidad, CO 81082",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 25
+      },
+      "geometry": {
+        "x": -104.487688,
+        "y": 37.172923999999995
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Mesa County",
+        "SITE_": "Mesa County Fair Grounds",
+        "ADDRESS": "2785 US- 50",
+        "CITY": "Grand Junction",
+        "STATE": "CO",
+        "ZIP": "81503",
+        "INFO": "Monday - Friday 9:00 am - 12:00 pm",
+        "LATITUDE": 39.034404,
+        "LONGITUDE": -108.535102,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "970-683-2300",
+        "Website": "https://health.mesacounty.us/",
+        "Directions": "https://maps.google.com/?q=2785 US- 50, Grand Junction, CO 81503",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 26
+      },
+      "geometry": {
+        "x": -108.535102,
+        "y": 39.034403999999995
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Mineral County",
+        "SITE_": "Mineral County Public Health",
+        "ADDRESS": "802 Rio Grande Ave",
+        "CITY": "Creede",
+        "STATE": "CO",
+        "ZIP": "81130",
+        "INFO": "Tuesday/Thursday 10:00 am 3:00 pm",
+        "LATITUDE": 37.847117,
+        "LONGITUDE": -106.926098,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "719-658-2416",
+        "Website": "https://www.silverthreadpublichealth.org/covid-19/",
+        "Directions": "https://maps.google.com/?q=802 Rio Grande Ave, Creede, CO 81130",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 27
+      },
+      "geometry": {
+        "x": -106.926098,
+        "y": 37.847117
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Moffat County",
+        "SITE_": "Moffat County Community Drive Thru Testing Clinic ",
+        "ADDRESS": "221 West Victory Way",
+        "CITY": "Craig",
+        "STATE": "CO",
+        "ZIP": "81625",
+        "INFO": "Tuesday/Thursday 9:00 am 3:00 pm",
+        "LATITUDE": 40.515014,
+        "LONGITUDE": -107.549937,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": null,
+        "Website": "N/A",
+        "Directions": "https://maps.google.com/?q=221 West Victory Way, Craig, CO 81625",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 28
+      },
+      "geometry": {
+        "x": -107.54993699999999,
+        "y": 40.515014
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Montezuma County",
+        "SITE_": "Southwest Health System Testing",
+        "ADDRESS": "1311 N Mildred Rd",
+        "CITY": "Cortez",
+        "STATE": "CO",
+        "ZIP": "81321",
+        "INFO": "Monday - Friday 8:00am - 2:00pm",
+        "LATITUDE": 37.361948,
+        "LONGITUDE": -108.574559,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "No",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "970-564-2201",
+        "Website": "https://www.swhealth.org/",
+        "Directions": "https://maps.google.com/?q=1311 N Mildred Rd, Cortez, CO 81321",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 29
+      },
+      "geometry": {
+        "x": -108.574559,
+        "y": 37.361947999999984
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Otero County",
+        "SITE_": "Valley Wide Health Systems",
+        "ADDRESS": "1012 Belmont",
+        "CITY": "La Junta",
+        "STATE": "CO",
+        "ZIP": "81050",
+        "INFO": "By appointment",
+        "LATITUDE": 37.978528,
+        "LONGITUDE": -103.556195,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "719-383-5500",
+        "Website": "https://vwhs.org/news/convenient-care-la-junta-clinic/",
+        "Directions": "https://maps.google.com/?q=1012 Belmont, La Junta, CO 81050",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 30
+      },
+      "geometry": {
+        "x": -103.55619500000002,
+        "y": 37.97852799999999
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Otero County",
+        "SITE_": "Arkansas Valley Regional Medical Center",
+        "ADDRESS": "110  Carson Ave ",
+        "CITY": "La Junta",
+        "STATE": "CO",
+        "ZIP": "81050",
+        "INFO": "By appointment",
+        "LATITUDE": 37.987013,
+        "LONGITUDE": -103.548573,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "Yes",
+        "Phone___for_public": "719-383-5906",
+        "Website": "https://www.avrmc.org/\u00a0",
+        "Directions": "https://maps.google.com/?q=110  Carson Ave , La Junta, CO 81050",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 31
+      },
+      "geometry": {
+        "x": -103.54857299999999,
+        "y": 37.98701299999999
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Otero County",
+        "SITE_": "Arkansas Valley Family Practice ",
+        "ADDRESS": "2317 San Juan Avenue",
+        "CITY": "La Junta",
+        "STATE": "CO",
+        "ZIP": "81050",
+        "INFO": "By appointment",
+        "LATITUDE": 37.966449,
+        "LONGITUDE": -103.546276,
+        "Who_is_being_tested_at_this_location__": "Patients from AVFP ",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "Yes",
+        "Phone___for_public": null,
+        "Website": "N/A",
+        "Directions": "https://maps.google.com/?q=2317 San Juan Avenue, La Junta, CO 81050",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 32
+      },
+      "geometry": {
+        "x": -103.546276,
+        "y": 37.96644899999999
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Phillips County",
+        "SITE_": "Melissa Memorial Hospital",
+        "ADDRESS": "1001 E Johnson St",
+        "CITY": "Holyoke",
+        "STATE": "CO",
+        "ZIP": "80734",
+        "INFO": "Monday - Friday 9:00 am- 6:00 pm",
+        "LATITUDE": 40.578545,
+        "LONGITUDE": -102.287963,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": null,
+        "Website": "N/A",
+        "Directions": "https://maps.google.com/?q=1001 E Johnson St, Holyoke, CO 80734",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 33
+      },
+      "geometry": {
+        "x": -102.287963,
+        "y": 40.578544999999984
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Prowers County",
+        "SITE_": "High Plains Community Health Center",
+        "ADDRESS": "201 Kendall Dr",
+        "CITY": "Lamar",
+        "STATE": "CO",
+        "ZIP": "81052",
+        "INFO": "Monday - Friday 8:00 am - 9:00 am",
+        "LATITUDE": 38.069441,
+        "LONGITUDE": -102.611306,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "No",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": null,
+        "Website": "N/A",
+        "Directions": "https://maps.google.com/?q=201 Kendall Dr, Lamar, CO 81052",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 34
+      },
+      "geometry": {
+        "x": -102.611306,
+        "y": 38.06944099999999
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Routt County",
+        "SITE_": "Routt County drive through clinic",
+        "ADDRESS": "845 Howelsen Parkway",
+        "CITY": "Steamboat Springs",
+        "STATE": "CO",
+        "ZIP": "80487",
+        "INFO": "Wednesdays & Saturdays 9:00 am - 3:00 pm",
+        "LATITUDE": 40.48408,
+        "LONGITUDE": -106.837545,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "970-870-5577",
+        "Website": "https://www.covid19routtcounty.com/",
+        "Directions": "https://maps.google.com/?q=845 Howelsen Parkway, Steamboat Springs, CO 80487",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 35
+      },
+      "geometry": {
+        "x": -106.83754500000002,
+        "y": 40.48408
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "San Juan County",
+        "SITE_": "San Juan County Public Health",
+        "ADDRESS": "1315 Snowden St.",
+        "CITY": "Silverton",
+        "STATE": "CO",
+        "ZIP": "81433",
+        "INFO": "5 days a week, 9-11am",
+        "LATITUDE": 37.813721,
+        "LONGITUDE": -107.665404,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "Yes",
+        "Phone___for_public": "970-387-0242",
+        "Website": "https://sanjuancounty.colorado.gov/health",
+        "Directions": "https://maps.google.com/?q=1315 Snowden St., Silverton, CO 81433",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 36
+      },
+      "geometry": {
+        "x": -107.665404,
+        "y": 37.813721
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Teller County",
+        "SITE_": "Woodland Park Community Testing Drive Thru",
+        "ADDRESS": "600 E. Kelley's Rd",
+        "CITY": "Woodland Park",
+        "STATE": "CO",
+        "ZIP": "80863",
+        "INFO": "Monday - Friday 9:00am- 11:00am",
+        "LATITUDE": 39.00832,
+        "LONGITUDE": -105.048057,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "No",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": null,
+        "Website": "https://www.tellercovid.com/",
+        "Directions": "https://maps.google.com/?q=600 E. Kelley's Rd, Woodland Park, CO 80863",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 37
+      },
+      "geometry": {
+        "x": -105.048057,
+        "y": 39.00831999999998
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Yuma County",
+        "SITE_": "Wray Community District Hospital",
+        "ADDRESS": "1017 W 7th St",
+        "CITY": "Wray",
+        "STATE": "CO",
+        "ZIP": "80758",
+        "INFO": "Monday - Saturday 9:00 am - 12:00 pm",
+        "LATITUDE": 40.075566,
+        "LONGITUDE": -102.234119,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "No",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "970-332-2310 M-F, after hours call 970-332-4811",
+        "Website": "https://www.wrayhospital.org/",
+        "Directions": "https://maps.google.com/?q=1017 W 7th St, Wray, CO 80758",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 38
+      },
+      "geometry": {
+        "x": -102.23411900000002,
+        "y": 40.075566
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Rio Blanco County",
+        "SITE_": "Rio Blanco County Department of Public Health",
+        "ADDRESS": "200 Main Street",
+        "CITY": "Meeker",
+        "STATE": "CO",
+        "ZIP": "81641",
+        "INFO": "Fridays 12pm-2pm",
+        "LATITUDE": 40.038211,
+        "LONGITUDE": -107.908883,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only",
+        "Appointment_Required_": "Yes",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "970-878-9520",
+        "Website": "https://www.rbc.us/",
+        "Directions": "https://maps.google.com/?q=200 Main Street, Meeker, CO 81641",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 39
+      },
+      "geometry": {
+        "x": -107.908883,
+        "y": 40.038211
+      }
+    },
+    {
+      "attributes": {
+        "COUNTY": "Adams County",
+        "SITE_": "Women's Health Group",
+        "ADDRESS": "9195 Grant St",
+        "CITY": "Thornton",
+        "STATE": "CO",
+        "ZIP": "80229",
+        "INFO": "M-F 10am-3pm",
+        "LATITUDE": 39.864109,
+        "LONGITUDE": -104.986202,
+        "Who_is_being_tested_at_this_location__": "General public, symptomatic only, General public, asymptomatic and symptomatic, High risk public (e.g., person>60 years of age, immunocompromised), Key personnel (healthcare workers, first responders, critical infrastructure) There are fees for testing at this site. ",
+        "Appointment_Required_": "No",
+        "Doctor_s_note_required_": "No",
+        "Phone___for_public": "720-647-5858",
+        "Website": "https://www.cocoviddriveup.com/",
+        "Directions": "https://maps.google.com/?q=9195 Grant St, Thornton, CO 80229",
+        "Include_In_Map": "Y",
+        "Date_Updated": 1590019200000,
+        "Data_Source": "Colorado Department of Public Health and Environment",
+        "FID": 40
+      },
+      "geometry": {
+        "x": -104.986202,
+        "y": 39.864109
+      }
+    }
+  ]
+}
